@@ -13,9 +13,13 @@ public class App {
 			String value = it.next();
 			System.out.println(value);
 		}
-
+		
+		//--lub
+		
+		for(String url : urlLibrary){
+			System.out.println(url);
+		}
 	}
-
 }
 
 
