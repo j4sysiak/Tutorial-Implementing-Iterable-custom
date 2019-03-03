@@ -7,18 +7,19 @@ public class App {
 	 
 		UrlLibrary urlLibrary = new UrlLibrary();
 		
+		for(String x : urlLibrary){
+			System.out.println(x);
+		}
+		
+		//--lub
+		
 		Iterator<String> it = urlLibrary.iterator();
 		
 		while(it.hasNext()){
 			String value = it.next();
 			System.out.println(value);
 		}
-		
-		//--lub
-		
-		for(String url : urlLibrary){
-			System.out.println(url);
-		}
+ 
 	}
 }
 
