@@ -19,7 +19,7 @@ public class UrlLibrary implements Iterable<String>  {
         urls.add("http://news.bbc.co.uk");
     }
  
-    /*klasa wewnêtrzna*/
+    /*klasa wewnêtrzna implementuje jeszcze raz interface Iterator, ¿eby utworzyæ w³asne metody hasNext(), next(), remove()*/
     private class UrlIterator implements Iterator<String> {
          
         private int index = 0;

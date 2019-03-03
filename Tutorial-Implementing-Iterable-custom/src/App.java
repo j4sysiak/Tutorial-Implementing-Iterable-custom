@@ -8,8 +8,9 @@ public class App {
 		UrlLibrary urlLibrary = new UrlLibrary();
 		
 		/*Custom zaimplementowany w klasie UrlLibrary*/
-		for(String x : urlLibrary){
-			System.out.println(x);
+		for(String html : urlLibrary){
+			System.out.println(html.length());
+			System.out.println(html);
 		}
 		
 		//--lub
