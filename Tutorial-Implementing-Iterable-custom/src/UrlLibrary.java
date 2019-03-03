@@ -16,7 +16,7 @@ public class UrlLibrary implements Iterable<String>  {
     public UrlLibrary() {
         urls.add("http://www.wp.pl");
         urls.add("http://www.onet.pl");
-        urls.add("http://news.fghfh.co.uu");
+        urls.add("http://news.bbc.co.uk");
     }
  
     /*klasa wewnêtrzna*/
